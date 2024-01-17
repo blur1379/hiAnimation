@@ -2,7 +2,7 @@
 //  hiAnimationApp.swift
 //  hiAnimation
 //
-//  Created by Mohammad Blur on 1/7/24.
+//  Created by Mohammad Blur on 1/18/24.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct hiAnimationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SunWithPathView()
         }
     }
 }
