@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Config: Identifiable, Codable {
+    var id: UUID = UUID()
+    var isTrue: Bool
+    var name: String
+}
