@@ -30,7 +30,7 @@ struct SunWithPathView: View {
     }
 }
 
-#Preview(body: {
+#Preview {
     SunWithPathView()
         .frame(height: 300)
-})
+}
