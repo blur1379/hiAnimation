@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct SunPosition{
+struct SunPosition {
     var height = 0.0
     var width = 0.0
 }

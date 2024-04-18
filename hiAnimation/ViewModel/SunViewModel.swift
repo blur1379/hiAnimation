@@ -8,12 +8,12 @@
 import SwiftUI
 
 class SunViewModel: ObservableObject {
-    @Published var percentage : Double = 0
+    @Published var percentage: Double = 0
     @Published var sunRotating = false
     var animationTime: TimeInterval = 4
     
-    func PathView( geometry : GeometryProxy) -> Path{
-        Path{ path in
+    func PathView(geometry: GeometryProxy) -> Path {
+        Path { path in
             let initialY = cos(.pi) * geometry.size.height / -5 + geometry.size.height / 2
             path.move(to: CGPoint(x: 0, y: initialY))
             for angle in stride(from: 0, through: 2 * .pi, by: 0.01) {
