@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SunView: View {
     @ObservedObject var sunVM: SunViewModel
-    var geometry: GeometryProxy
+    let geometry: GeometryProxy
     
     var body: some View {
         let x = geometry.size.width
