@@ -38,6 +38,5 @@ struct SunView: View {
                     LinearKeyframe(2 * .pi * 0.7, duration: sunVM.animationTime)
                 }
             }
-        
     }
 }

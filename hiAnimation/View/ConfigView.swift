@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Combine
+
 struct ConfigView: View {
     @StateObject var itemVM : ItemViewModel = ItemViewModel()
     
@@ -31,7 +32,6 @@ struct ConfigView: View {
             
             Text("\(itemVM.storedConfig)")
                 .padding()
-
         }
     }
 }

@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct SunWithPathView: View {
     @StateObject var sunVM = SunViewModel()
     
@@ -23,13 +22,11 @@ struct SunWithPathView: View {
                         .stroke(Color.purple, lineWidth: 3)
 
                     SunView(sunVM: sunVM, geometry: geometry)
-                    
                 }
             }
         }
         .onAppear { withAnimation(.linear(duration: sunVM.animationTime)) { sunVM.percentage = 0.7 } }
         .padding()
-        
     }
 }
 
