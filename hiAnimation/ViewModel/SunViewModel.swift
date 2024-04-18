@@ -8,7 +8,7 @@
 import SwiftUI
 
 class SunViewModel: ObservableObject {
-    @Published var percentage: Double = 0
+    @Published var percentage = 0.0
     @Published var sunRotating = false
     let animationTime: TimeInterval = 4
     
